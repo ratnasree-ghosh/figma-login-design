@@ -1,0 +1,113 @@
+body{
+    /* background-color: #F8F8F8; */
+    background-color: #F8F8F8;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 262px;
+    justify-content: center;
+    left: 50px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    margin: 120px auto;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+
+.pass{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+#email, #password{
+    padding: 10px;
+    background: rgba(249, 249, 249, 0.8);
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+}
+
+
+
+.mail-class{
+/* font-family: 'Helvetica';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px; */
+padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.pass{
+    padding-top: 20px;
+    background-color: #fff;
+   
+}
+
+.pass-class{
+/* font-family: 'Helvetica';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px; */
+padding-bottom: 15px;
+}
+
+
+
+.btn{
+    background: #007AFF;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.forgot{
+    
+    text-decoration: none;
+    color: #007AFF;
+}
+
+.para{
+
+
+padding-top: 15px;
+text-align: center;
+}
+
+.acc{
+    text-decoration: none;
+    color: #208BFF;
+}
+
+.default{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+   font-size: 15px;
+    line-height: 16px;
+}
